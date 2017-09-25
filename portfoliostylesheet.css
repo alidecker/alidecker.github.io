@@ -1,9 +1,10 @@
 body {
     background-color: #F5DEB3;
-    font-family: 'Arvo', Arial, serif;
+    font-family: 'Arvo', serif; /* add a backup font later */
 }
 
 h1 {
+    /* font-family: 'Josefin Slab', serif; */
     color: #800080;
     font-size: 36px;
 }
