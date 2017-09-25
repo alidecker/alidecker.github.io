@@ -14,10 +14,7 @@ body {
     justify-content: space-around;
     align-items: start;
     padding: 10%;
-}
-
-.photo {
-    border: 5px solid #DEB887;
+    min-padding: 20px;
 }
 
 .menu {
