@@ -23,6 +23,7 @@ body {
     align-items: left;
     padding: 10%;
     min-padding: 20px;
+    flex-wrap: wrap; /* how can I wrap with column items? */
 }
 
 .menu {
