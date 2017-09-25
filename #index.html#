@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <title>Ali Decker's Website</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="portfoliostylesheet.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="menu-container">
+      <div class="photo">
+	 <img src="IMG_4165.jpg" alt="Headshot of Ali Decker" />
+      </div>
+      <div class="menu">
+    <h1>Ali Decker</h1>
+    <h2><a href="resume.html">Resume</a></h2>
+    <h2><a href="bio.html">Biography</a></h2>
+    <h2><a href="http://www.alidecker.crevado.com/">Portfolio</a></h2>
+      </div>
+    </div>
+  </body>
+
+</html>

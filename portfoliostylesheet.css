@@ -15,9 +15,13 @@ body {
     padding: 20px;
 }
 
+.photo {
+    border: 5px solid #DEB887;
+}
+
 .menu {
     border: 5px solid #DEB887;
-    margin: 10px;
+    margin: 20px;
 }
 
 h1 {
