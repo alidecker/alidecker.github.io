@@ -1,11 +1,15 @@
 body {
     background-color: #F5DEB3;
     font-family: 'Arvo', Georgia, serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    flex-wrap: wrap;
 }
 
 h1 {
     color: #800080;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 h2 {
