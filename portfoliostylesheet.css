@@ -3,15 +3,16 @@ body {
     font-family: 'Arvo', Georgia, serif;
     text-align: left;
     margin-left: 10%;
+    margin-right: 10%;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .menu-container {
     display: flex;
-    flex-direction: row; /* trying to align items */
+    flex-direction: row;
     justify-content: space-around;
     align-items: start;
-    /* flex-wrap: wrap; */
     padding: 20px;
 }
 
@@ -21,7 +22,7 @@ body {
 
 .menu {
     border: 5px solid #DEB887;
-    margin: 20px;
+    margin: 20px 20px 20px 20px;
 }
 
 h1 {
