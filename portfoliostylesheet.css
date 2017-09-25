@@ -8,15 +8,16 @@ body {
 
 .menu-container {
     display: flex;
+    flex-direction: row; /* trying to align items */
     justify-content: space-around;
     align-items: start;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding: 20px;
 }
 
 .menu {
     border: 5px solid #DEB887;
-    padding: 10px;
+    margin: 10px;
 }
 
 h1 {
