@@ -4,7 +4,17 @@ body {
     text-align: left;
     margin-left: 10%;
     margin-top: 10%;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
     flex-wrap: wrap;
+}
+
+.menu {
+    border: 2px solid #DEB887;
 }
 
 h1 {
