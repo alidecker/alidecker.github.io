@@ -9,22 +9,24 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: start;
-    margin: 10%;
-    margin-top: 40px;
 }
 
 .resume-all {
     display: flex;
     flex-direction: column;
-    align-items: left;
     margin: 10%;
     margin-top: 40px;
 }
 
 .menu {
     padding: 20px;
+    border: 5px solid #DEB887
+}
+
+.resume-block {
+    padding: 20px;
     border: 5px solid #DEB887;
+    width: 80%
 }
 
 h1 {
@@ -48,15 +50,24 @@ h3 {
 p {
     color: #4B0082;
     font-size: 16px;
-    margin: 0px;
+    margin: 5px;
 }
 
 ul {
     color: #4B0082;
     font-size: 16px;
+    margin: 5px;
 }
 
 h4 {
     color: #4B0082;
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 16px;
+}
+
+h5 {
+    color: #4B0082;
     font-size: 14px;
+    margin: 5px;
 }
