@@ -42,12 +42,13 @@ h2 {
 h3 {
     color: #4B0082;
     font-size: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
 p {
     color: #4B0082;
     font-size: 16px;
+    margin: 4px;
 }
 
 ul {
