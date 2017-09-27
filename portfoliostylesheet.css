@@ -48,8 +48,6 @@ h3 {
 p {
     color: #4B0082;
     font-size: 16px;
-    padding: 4px;
-    padding-top: 0px;
 }
 
 ul {
@@ -73,4 +71,11 @@ h5 {
 
 .love {
     font-style: italic;
+}
+
+.bp {
+    color: #4B0082;
+    font-size: 16px;
+    padding: 4px;
+    padding-top: 0px;
 }
