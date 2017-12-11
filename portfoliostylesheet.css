@@ -26,8 +26,27 @@ body {
 .resume-block {
     padding: 20px;
     border: 5px solid #DEB887;
-    width: 80%
+    width: 80%;
 }
+
+.portfolio-title {
+    text-decoration: underline;
+    text-decoration-color: #4B0082;
+}
+
+/*.portfolio-title a:link{
+    color: #808080;
+    text-decoration: none;}
+/*.portfolio-title a:visited{
+    color: #808080;}*/
+.portfolio-title h2:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+.portfolio-title h2:active{
+    color: black;}
 
 h1 {
     color: #800080;

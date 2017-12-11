@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title>Ali’s Portfolio</title>
+<meta charset="utf-8" />
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<link href="portfoliostylesheet.css" rel="stylesheet" />
+<script>
+function sonosFunc() {
+    var sonos = document.getElementById("show-sonos");
+    if (sonos.style.display === "none") {
+        sonos.style.display = "block";
+    } else {
+        sonos.style.display = "none";
+    }
+}
+</script>
+</head>
+
+<body>
+	<div class="resume-all">
+	<h1>Ali Decker</h1>
+	<a class="portfolio-title" onclick="sonosFunc()"><h2>Sonos Design Challenge</h2></a>
+
+	<div id="show-sonos">
+		<h3>hello</h3>
+	</div>
+</body>
+
+</html>
