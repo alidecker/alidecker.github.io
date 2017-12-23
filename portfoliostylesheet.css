@@ -98,3 +98,7 @@ h5 {
     font-size: 16px;
     padding: 8px;
 }
+
+#show-sonos, #show-enp166, #show-art {
+    display: none;
+}

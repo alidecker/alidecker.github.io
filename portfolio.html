@@ -16,6 +16,22 @@ function sonosFunc() {
         sonos.style.display = "none";
     }
 }
+function enp166Func() {
+    var sonos = document.getElementById("show-enp166");
+    if (sonos.style.display === "none") {
+        sonos.style.display = "block";
+    } else {
+        sonos.style.display = "none";
+    }
+}
+function artFunc() {
+    var sonos = document.getElementById("show-art");
+    if (sonos.style.display === "none") {
+        sonos.style.display = "block";
+    } else {
+        sonos.style.display = "none";
+    }
+}
 </script>
 </head>
 
@@ -23,9 +39,14 @@ function sonosFunc() {
 	<div class="resume-all">
 	<h1>Ali Decker</h1>
 	<a class="portfolio-title" onclick="sonosFunc()"><h2>Sonos Design Challenge</h2></a>
-
 	<div id="show-sonos">
-		<h3>hello</h3>
+		<h3>hello</h3></div>
+	<a class="portfolio-title" onclick="enp166Func()"><h2>Software User Interface Design Class Projects</h2></a>
+	<div id="show-enp166">
+		<h3>hello2</h3></div>
+	<a class="portfolio-title" onclick="artFunc()"><h2>Paintings and Drawings</h2></a>
+	<div id="show-art">
+		<h3>hello3</h3></div>
 	</div>
 </body>
 
