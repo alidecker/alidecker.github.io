@@ -102,3 +102,25 @@ h5 {
 #show-sonos, #show-enp166, #show-art {
     display: none;
 }
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.app-photo {
+    width: 300px;
+    height: auto;
+    margin: 5px;
+}
+
+#spoon-carving {
+    width: 200px;
+    height: auto;
+}
+
+.tablet-photo {
+    width: 90%;
+    height: auto;
+    /*margin: 5%;*/
+}
