@@ -19,25 +19,36 @@ function sonosFunc() {
         s_bg.style.background = "#F5DEB3";
     }
 }
-function enp166Func() {
-    var sonos = document.getElementById("show-enp166");
-    var e_bg = document.getElementById("all-enp166")
-    if (sonos.style.display === "none") {
-        sonos.style.display = "block";
+function justoCatFunc() {
+    var justoCat = document.getElementById("show-justocat");
+    var j_bg = document.getElementById("all-justocat")
+    if (justoCat.style.display === "none") {
+        justoCat.style.display = "block";
+        j_bg.style.background = "#f7eede";
+    } else {
+        justoCat.style.display = "none";
+        j_bg.style.background = "#F5DEB3";
+    }
+}
+function ehangFunc() {
+    var ehang = document.getElementById("show-ehang");
+    var e_bg = document.getElementById("all-ehang")
+    if (ehang.style.display === "none") {
+        ehang.style.display = "block";
         e_bg.style.background = "#f7eede";
     } else {
-        sonos.style.display = "none";
+        ehang.style.display = "none";
         e_bg.style.background = "#F5DEB3";
     }
 }
 function artFunc() {
-    var sonos = document.getElementById("show-art");
+    var art = document.getElementById("show-art");
     var a_bg = document.getElementById("all-art");
-    if (sonos.style.display === "none") {
-        sonos.style.display = "block";
+    if (art.style.display === "none") {
+        art.style.display = "block";
         a_bg.style.background = "#f7eede";
     } else {
-        sonos.style.display = "none";
+        art.style.display = "none";
         a_bg.style.background = "#F5DEB3";
     }
 }
@@ -49,21 +60,20 @@ function artFunc() {
 	<h1>Ali Decker</h1>
     <div id="all-sonos">
     	<a class="portfolio-title" onclick="sonosFunc()"><h2>Sonos Design Challenge (Winner)</h2></a>
-    	<p>In 12 days, a peer and I designed an app in which the user takes or chooses a picture, and then the app generates a playlist based on the contents of the photo. I designed the icons and app layout and did a bit of React Native coding, while he did the bulk of the coding. Together we brainstormed functionality and high-level implementation, and we both conducted user testing: A-B testing of icons and app layout, as well as workflow testing once a prototype was developed. In the end, we won the design challenge and presented our project at Sonos' Hack Week.</p>
+    	<p>In 12 days, a peer and I designed an app in which the user takes or chooses a picture, and then the app generates a playlist based on the contents of the photo. I designed the icons and app layout and did a bit of React Native coding, while he did the bulk of the coding. Together we brainstormed functionality and high-level implementation, and we both conducted user testing of icons and app layout, as well as workflow testing once a prototype was developed. In the end, we won the design challenge and presented our project at Sonos' Hack Week.</p>
     	<div id="show-sonos">
-    		<img src="sonos-photos/bonker-app.png" alt="Bonker app icon"/>
-            <img src="sonos-photos/bonker-sketches.jpg" alt="Bonker app initial sketches"/>
+    		<img class="app-photo" src="sonos-photos/bonker-app.png" alt="Bonker app icon"/>
+            <img class="tablet-photo" src="sonos-photos/bonker-sketches.jpg" alt="Bonker app initial sketches"/>
             <img src="sonos-photos/sonos-icons.png" alt="Bonker app icon iterations"/>
-            <img src="sonos-photos/sonos-screens.png" alt="Bonker app screen iterations"/>
+            <img class="tablet-photo" src="sonos-photos/sonos-screens.png" alt="Bonker app screen iterations"/>
             <img src="sonos-photos/sonos-i-states.jpg" alt="Bonker final Illustrator designs"/>
             <img src="sonos-photos/Bonker-final.png" alt="Bonker final screenshots"/>
         </div>
     </div>
-    <div id="all-enp166">
-    	<a class="portfolio-title" onclick="enp166Func()"><h2>Software User Interface Design Class Projects</h2></a>
-    	<p>Here I present two full projects - a robotic therapy cat mobile application (<a href="http://www.justocat.com/">JustoCat</a> II) and the driving application for the inside of an autonomous flying service (<a href="http://www.ehang.com/ehang184">EHANG 184</a>) - followed by samples of other design projects completed in a course at Tufts University. All mockups were made in Adobe Illustrator, and the Red Sox project was also prototyped in InVision.</p>
-    	<div id="show-enp166">
-            <p>More stuff about JustoCat</p>
+    <div id="all-justocat">
+    	<a class="portfolio-title" onclick="justoCatFunc()"><h2>JustoCat Mobile App</h2></a>
+    	<p>Here I present sample screens of a robotic therapy cat mobile application (<a href="http://www.justocat.com/">JustoCat</a> II). All mockups were made in Adobe Illustrator.</p>
+    	<div id="show-justocat">
             <img class="tablet-photo" src="justo-cat-photos/JustoCatStickies.jpg" alt="JustoCat sticky note affinity diagram"/>
     		<img class="app-photo" src="justo-cat-photos/welcome.png" alt="JustoCat app welcome page"/>
             <img class="app-photo" src="justo-cat-photos/commanding.png" alt="JustoCat you are commanding cat popup"/>
@@ -71,18 +81,26 @@ function artFunc() {
             <img class="app-photo" src="justo-cat-photos/add-cat.png" alt="JustoCat add new cat screen"/>
             <img class="app-photo" src="justo-cat-photos/purr-effects.png" alt="JustoCat set purr settings screen"/>
             <img class="app-photo" src="justo-cat-photos/monitor.png" alt="JustoCat monitor the owner screen"/>
-            <p>Stuff about EHANG 184. Originally, I had all sidebar functionality showing at once, but once I learned about progressive disclosure, I replaced the full sidebar with the "swipe side for more" option to declutter the main page.</p>
+        </div>
+    </div>
+    <div id="all-ehang">
+        <a class="portfolio-title" onclick="ehangFunc()"><h2>EHANG 184 Tablet App</h2></a>
+        <p>These are sample screens for a driving application for the inside of an autonomous flying service (<a href="http://www.ehang.com/ehang184">EHANG 184</a>) Originally, I had all sidebar functionality showing at once, but once I learned about progressive disclosure, I replaced the full sidebar with the "swipe side for more" option to declutter the main page. All mockups were made in Adobe Illustrator.</p>
+        <div id="show-ehang">
             <img class="tablet-photo" src="ehang-photos/ENP166_EHANGchart-10.jpg" alt="EHANG flow diagram"/>
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-01.png" alt="EHANG welcome screen"/>
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-02.png" alt="EHANG safety briefing"/>
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-03.png" alt="EHANG set destination"/>
+     
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-13.png" alt="EHANG in flight"/>
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-05.png" alt="EHANG in flight with left sidebar"/>
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-09.png" alt="EHANG night mode"/>
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-10.png" alt="EHANG help mode"/>
             <img class="tablet-photo" src="ehang-photos/EHANGportfolio-11.png" alt="EHANG driving yourself"/>
             <img class="tablet-photo" src="ehang-photos/EHANGfinal-08.jpg" alt="EHANG settings page night mode"/>
-            <p>And now for more on the design process I learned in this course, demonstrated with photos and descriptions of other projects I completed there.</p>
+        </div>
+    </div>
+            <!-- <p>And now for more on the design process I learned in this course, demonstrated with photos and descriptions of other projects I completed there.</p>
             <img class="tablet-photo" src="enp166-photos/Starbucks-languages.png" alt="Starbucks kiosk languages page"/>
             <img class="tablet-photo" src="enp166-photos/Starbucks-addins.png" alt="Starbucks kiosk add-ins page"/>
             <img class="tablet-photo" src="enp166-photos/Starbucks-filling.png" alt="Starbucks filling coffee page"/>
@@ -90,9 +108,7 @@ function artFunc() {
             <img class="tablet-photo" src="enp166-photos/HeadphoneHunter-02.jpg" alt="HeadphoneHunter quiz page"/>
             <img class="tablet-photo" src="enp166-photos/RedSox-03.png" alt="Red Sox tablet app roster screen"/>
             <img class="tablet-photo" src="enp166-photos/RedSoxBubbleDiagram.jpg" alt="Red Sox tablet app affinity diagram"/>
-            <img class="tablet-photo" src="enp166-photos/RedSox-UIFlow.jpg" alt="Red Sox tablet app flow diagram"/>
-        </div>
-    </div>
+            <img class="tablet-photo" src="enp166-photos/RedSox-UIFlow.jpg" alt="Red Sox tablet app flow diagram"/> -->
 	<div id="all-art">
         <a class="portfolio-title" onclick="artFunc()"><h2>Paintings and Drawings</h2></a>
     	<p>Art works I've completed over the past few years.<p>
