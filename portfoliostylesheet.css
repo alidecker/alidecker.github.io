@@ -119,10 +119,15 @@ img {
     height: auto;
 }
 
+#resume-photo {
+    width: 100%;
+    height: auto;
+}
+
 .title-photo {
     width: 300px;
     height: 300px;
-    margin: 20px;
+    padding: 20px;
 }
 
 .app-photo {
