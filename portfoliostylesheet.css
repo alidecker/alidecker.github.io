@@ -39,13 +39,14 @@ body {
     text-decoration: none;}
 /*.portfolio-title a:visited{
     color: #808080;}*/
-.portfolio-title h2:hover{
+.title-block:hover{
     color: black;
-    text-decoration: underline;
-    text-decoration-color: black;
+    /*text-decoration: underline;
+    text-decoration-color: black;*/
     cursor: pointer;
+    background: #f7eede;
 }
-.portfolio-title h2:active{
+.title-block:active{
     color: black;}
 
 h1 {
@@ -99,6 +100,16 @@ h5 {
     padding: 8px;
 }
 
+.project {
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.title-block {
+    display: flex;
+    flex-direction: row;
+}
+
 #show-sonos, #show-justocat, #show-art, #show-ehang {
     display: none;
 }
@@ -106,6 +117,12 @@ h5 {
 img {
     width: 50%;
     height: auto;
+}
+
+.title-photo {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
 }
 
 .app-photo {
