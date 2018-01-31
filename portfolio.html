@@ -8,6 +8,17 @@
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 <link href="portfoliostylesheet.css" rel="stylesheet" />
 <script>
+function thisWebFunc() {
+    var web = document.getElementById("show-thisWeb");
+    var w_bg = document.getElementById("all-thisWeb");
+    if (web.style.display === "none") {
+        web.style.display = "block";
+        w_bg.style.background = "#f7eede";
+    } else {
+        web.style.display = "none";
+        w_bg.style.background = "#F5DEB3";
+    }
+}
 function sonosFunc() {
     var sonos = document.getElementById("show-sonos");
     var s_bg = document.getElementById("all-sonos");
