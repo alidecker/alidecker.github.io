@@ -41,6 +41,17 @@ function ehangFunc() {
         e_bg.style.background = "#F5DEB3";
     }
 }
+function trainFunc() {
+    var train = document.getElementById("show-train");
+    var t_bg = document.getElementById("all-train");
+    if (train.style.display === "none") {
+        train.style.display = "block";
+        t_bg.style.background = "#f7eede";
+    } else {
+        train.style.display = "none";
+        t_bg.style.background = "#F5DEB3";
+    }
+}
 function artFunc() {
     var art = document.getElementById("show-art");
     var a_bg = document.getElementById("all-art");
@@ -58,12 +69,23 @@ function artFunc() {
 <body>
 	<div class="resume-all">
 	<h1>Ali Decker</h1>
+    <div class="project" id="all-thisWeb">
+        <div class="title-block" onclick="thisWebFunc()">
+        <!--<img class="title-photo" src="blah" alt="blahblah"/> -->
+        <div class="title-text">
+        <a class="portfolio-title"><h2>This Website</h2></a>
+        <p>I designed and coded this website myself in HTML, JavaScript, and CSS. I built most of the pages during the Web Development course at Tufts University, and completed the Portfolio page (this page) on my own.</p>
+        </div></div>
+        <div id="show-thisWeb">
+        <p>Since I have quite a full and varied portfolio, I decided to use a filtering system so that site visitors can choose to view only the projects that are relevant to their interests.</p>
+        </div>
+    </div>
     <div class="project" id="all-sonos">
         <div class="title-block" onclick="sonosFunc()">
     	<img class="title-photo" src="sonos-photos/bonker-app.png" alt="Bonker app icon"/>
         <div class="title-text">
         <a class="portfolio-title"><h2>Sonos Design Challenge (Winner)</h2></a>
-    	<p>In 12 days, a peer and I designed an app in which the user takes or chooses a picture, and then the app generates a playlist based on the contents of the photo. I designed the icons and app layout and did a bit of React Native coding, while he did the bulk of the coding. Together we brainstormed functionality and high-level implementation, and we both conducted preference testing of icons and app layout, as well as workflow testing once a prototype was developed. In the end, we won the design challenge and presented our project at Sonos' Hack Week.</p>
+    	   <p>In 12 days, a peer and I designed an app in which the user takes or chooses a picture, and then the app generates a playlist based on the contents of the photo. I designed the icons and app layout and did a bit of React Native coding, while he did the bulk of the coding. Together we brainstormed functionality and high-level implementation, and we both conducted preference testing of icons and app layout, as well as workflow testing once a prototype was developed. In the end, we won the design challenge and presented our project at Sonos' Hack Week.</p>
         </div></div>
     	<div id="show-sonos">
             <img class="tablet-photo" src="sonos-photos/bonker-sketches.jpg" alt="Bonker app initial sketches"/>
