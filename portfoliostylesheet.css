@@ -3,37 +3,31 @@ body {
     font-family: 'Arvo', Georgia, serif;
     text-align: left;
 }
-
 .menu-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 .resume-all {
     display: flex;
     flex-direction: column;
     margin: 10%;
     margin-top: 40px;
 }
-
 .menu {
     padding: 20px;
     border: 5px solid #DEB887;
     margin: 40px;
 }
-
 .resume-block {
     padding: 20px;
     border: 5px solid #DEB887;
     width: 80%;
 }
-
 .portfolio-title {
     text-decoration: underline;
     text-decoration-color: #4B0082;
 }
-
 /*.portfolio-title a:link{
     color: #808080;
     text-decoration: none;}
@@ -48,99 +42,81 @@ body {
 }
 .title-block:active{
     color: black;}
-
 h1 {
     color: #800080;
     font-size: 40px;
 }
-
 h2 {
     color: #4B0082;
     font-size: 32px;
 }
-
 h3 {
     color: #4B0082;
     font-size: 24px;
     margin-bottom: 8px;
 }
-
 p {
     color: #4B0082;
     font-size: 16px;
     margin: 4px;
 }
-
 ul {
     color: #4B0082;
     font-size: 16px;
     margin: 5px;
 }
-
 h4 {
     color: #4B0082;
     font-size: 16px;
     margin: 5px;
     margin-top: 16px;
 }
-
 h5 {
     color: #4B0082;
     font-size: 14px;
     margin: 5px;
 }
-
 .love {
     font-style: italic;
 }
-
 .bp {
     color: #4B0082;
     font-size: 16px;
     padding: 8px;
 }
-
 .project {
     padding: 0px 20px 20px 20px;
     border-radius: 5px;
 }
-
 .title-block {
     display: flex;
     flex-direction: row;
 }
-
 #show-thisWeb, #show-sonos, #show-justocat, #show-art, #show-ehang, #show-train {
     display: none;
 }
-
 img {
     width: 50%;
     height: auto;
 }
-
 #resume-photo {
     width: 100%;
     height: auto;
 }
-
 .title-photo {
     width: 300px;
     height: 300px;
     margin: 20px;
 }
-
 .app-photo {
     width: 300px;
     height: auto;
     margin: 5px;
 }
-
 #spoon-carving {
     width: 200px;
     height: auto;
 }
-
 .tablet-photo {
     width: 90%;
     height: auto;
