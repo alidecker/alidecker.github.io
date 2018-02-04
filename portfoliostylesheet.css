@@ -87,6 +87,7 @@ h5 {
 .project {
     padding: 0px 20px 20px 20px;
     border-radius: 5px;
+    display: hidden;
 }
 .title-block {
     display: flex;
@@ -121,4 +122,28 @@ img {
     width: 90%;
     height: auto;
     /*margin: 5%;*/
+}
+.show {
+    display: block;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #4B0082;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  margin-bottom: 20px;
+  font-family: 'Arvo', Georgia, serif;
+  font-size: 12pt;
+}
+.btn:hover {
+  background-color: #EEAEEE;
+  color: #4B0082;
+}
+.btn.active {
+  background-color: #EEAEEE;
+  color: #4B0082;
 }

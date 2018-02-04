@@ -7,91 +7,31 @@
 <meta charset="utf-8" />
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 <link href="portfoliostylesheet.css" rel="stylesheet" />
-<script>
-function thisWebFunc() {
-    var web = document.getElementById("show-thisWeb");
-    var w_bg = document.getElementById("all-thisWeb");
-    if (web.style.display === "none") {
-        web.style.display = "block";
-        w_bg.style.background = "#f7eede";
-    } else {
-        web.style.display = "none";
-        w_bg.style.background = "#F5DEB3";
-    }
-}
-function sonosFunc() {
-    var sonos = document.getElementById("show-sonos");
-    var s_bg = document.getElementById("all-sonos");
-    if (sonos.style.display === "none") {
-        sonos.style.display = "block";
-        s_bg.style.background = "#f7eede";
-    } else {
-        sonos.style.display = "none";
-        s_bg.style.background = "#F5DEB3";
-    }
-}
-function justoCatFunc() {
-    var justoCat = document.getElementById("show-justocat");
-    var j_bg = document.getElementById("all-justocat")
-    if (justoCat.style.display === "none") {
-        justoCat.style.display = "block";
-        j_bg.style.background = "#f7eede";
-    } else {
-        justoCat.style.display = "none";
-        j_bg.style.background = "#F5DEB3";
-    }
-}
-function ehangFunc() {
-    var ehang = document.getElementById("show-ehang");
-    var e_bg = document.getElementById("all-ehang")
-    if (ehang.style.display === "none") {
-        ehang.style.display = "block";
-        e_bg.style.background = "#f7eede";
-    } else {
-        ehang.style.display = "none";
-        e_bg.style.background = "#F5DEB3";
-    }
-}
-function trainFunc() {
-    var train = document.getElementById("show-train");
-    var t_bg = document.getElementById("all-train");
-    if (train.style.display === "none") {
-        train.style.display = "block";
-        t_bg.style.background = "#f7eede";
-    } else {
-        train.style.display = "none";
-        t_bg.style.background = "#F5DEB3";
-    }
-}
-function artFunc() {
-    var art = document.getElementById("show-art");
-    var a_bg = document.getElementById("all-art");
-    if (art.style.display === "none") {
-        art.style.display = "block";
-        a_bg.style.background = "#f7eede";
-    } else {
-        art.style.display = "none";
-        a_bg.style.background = "#F5DEB3";
-    }
-}
-</script>
+<script src="portfolio.js"></script>
 </head>
 
 <body>
 	<div class="resume-all">
 	<h1>Ali Decker</h1>
-    <div class="project" id="all-thisWeb">
+    <div id="filterBtns">
+        <button class="btn active" onclick="filterSelection('all')">Show All</button>
+        <button class="btn" onclick="filterSelection('research')">User Research</button>
+        <button class="btn" onclick="filterSelection('design')">Interface Design</button>
+        <button class="btn" onclick="filterSelection('code')">Technical/Code</button>
+    </div>
+    </ul>
+    <div class="project design code" id="all-thisWeb">
         <div class="title-block" onclick="thisWebFunc()">
         <!--<img class="title-photo" src="blah" alt="blahblah"/> -->
         <div class="title-text">
         <a class="portfolio-title"><h2>This Website</h2></a>
-        <p>I designed and coded this website myself in HTML, JavaScript, and CSS. I built most of the pages during the Web Development course at Tufts University, and completed the Portfolio page (this page) on my own.</p>
+        <p>I designed and coded this website myself in HTML, JavaScript, and CSS. I built most of the pages during the Web Development course at Tufts University, and completed the Portfolio page (this page) outside of class on my own.</p>
         </div></div>
         <div id="show-thisWeb">
         <p>Since I have quite a full and varied portfolio, I decided to use a filtering system so that site visitors can choose to view only the projects that are relevant to their interests.</p>
         </div>
     </div>
-    <div class="project" id="all-sonos">
+    <div class="project research design code" id="all-sonos">
         <div class="title-block" onclick="sonosFunc()">
     	<img class="title-photo" src="sonos-photos/bonker-app.png" alt="Bonker app icon"/>
         <div class="title-text">
@@ -111,7 +51,7 @@ function artFunc() {
             <p>This is the final version of our functional app, written in React Native and usable on Expo on both Android and iOS. We decided to place the primary control buttons at the bottom (including the photo buttons, as in last screen) since that is where the user's thumbs are when they use their phone. There is also new button here, next to the volume slider. This is the "connect to Sonos speakers" button. With Sonos, you can connect to multiple speakers at once - this is why the icon features two speakers and not just one. One thing I would add is branding in the upper left-hand corner. </p>
         </div>
     </div>
-    <div class="project" id="all-justocat">
+    <div class="project design" id="all-justocat">
         <div class="title-block" onclick="justoCatFunc()">
         <img class="title-photo" src="justo-cat-photos/add-cat-2.png" alt="JustoCat add new cat screen"/>
         <div class="title-text">
@@ -136,7 +76,7 @@ function artFunc() {
             <p>The caretaker (the user) may want to monitor the "owner." The "Activity Chart" shows things that might be indicative of the "owner's" mental level that day, such as amount of time spent petting the cat, frequently repeated phrases, etc.</p>
         </div>
     </div>
-    <div class="project" id="all-ehang">
+    <div class="project design" id="all-ehang">
         <div class="title-block" onclick="ehangFunc()">
         <img class="title-photo" src="ehang-photos/EHANGportfolio-05-2.png" alt="EHANG set destination"/>
         <div class-"title-text">
@@ -171,7 +111,7 @@ function artFunc() {
         </div>
     </div>
     <!-- Through bumpy and smooth interactions with my teammates, I learned strategies to make a team productive and cooperative.-->
-    <div class="project" id="all-train">
+    <div class="project research design" id="all-train">
         <div class="title-block" onclick="trainFunc()">
         <img class="title-photo" src="train-photos/upperdisplay-2.png" alt="Train crowding display above platform"/>
         <div class="title-text">
@@ -193,7 +133,7 @@ function artFunc() {
             <p>After conducting user testing (simulated use + preference), we completed a hierarchical task analysis, identified hazards and assessed risks, and completed a heuristic analysis. From these and our previous findings, we generated design and research ideas for future iterations of our concept. We presented all of the above infomation to KCUS, Inc. representatives.</p>
         </div>
     </div>
-	<div class="project" id="all-art">
+	<div class="project design" id="all-art">
         <div class="title-block" onclick="artFunc()">
         <img class="title-photo" src="art-photos/IMG_3893-2.jpeg" alt="Portrait of Cris"/>
         <div class="title-text">
@@ -214,6 +154,7 @@ function artFunc() {
         </div>
     </div>
     </div>
+    <script src="filtering.js"></script>
 </body>
 
 </html>
