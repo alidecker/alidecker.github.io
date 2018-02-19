@@ -98,7 +98,7 @@ h5 {
     display: flex;
     flex-direction: row;
 }
-#show-thisWeb, #show-sonos, #show-justocat, #show-art, #show-ehang, #show-train {
+#show-thisWeb, #show-sonos, #show-justocat, #show-art, #show-ehang, #show-train, #show-redsox {
     display: none;
 }
 img {

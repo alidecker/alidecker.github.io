@@ -54,6 +54,17 @@ function trainFunc() {
         t_bg.style.background = "#F5DEB3";
     }
 }
+function redSoxFunc() {
+    var redsox = document.getElementById("show-redsox");
+    var r_bg = document.getElementById("all-redsox");
+    if (redsox.style.display === "none") {
+        redsox.style.display = "block";
+        r_bg.style.background = "#f7eede";
+    } else {
+        redsox.style.display = "none";
+        r_bg.style.background = "#F5DEB3";
+    }
+}
 function artFunc() {
     var art = document.getElementById("show-art");
     var a_bg = document.getElementById("all-art");
