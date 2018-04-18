@@ -126,7 +126,7 @@ ul {
   background-color: white;
 }
 .container:hover .overlay {
-  opacity: 0.75;
+  opacity: 0.85;
 }
 .text {
 	position: absolute;
