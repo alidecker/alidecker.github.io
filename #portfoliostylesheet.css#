@@ -159,9 +159,6 @@ img {
     margin: 0px;
     padding: 0px;
 }
-iframe {
-    margin: 5px 0px 5px; 
-}
 /*side-desc {
     display: flex;
     flex-direction: row;

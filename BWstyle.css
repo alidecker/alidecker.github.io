@@ -178,6 +178,14 @@ ul {
 	width: auto;
 	margin: 0px;
 }
+iframe {
+    margin: 20px 0px 20px; 
+}
+.dense-photo {
+	width: 50%;
+    height: 50%;
+    margin: 20px 20px 20px 0;
+}
 #spoon-carving {
     width: 200px;
     height: 650px;
