@@ -170,7 +170,7 @@ ul {
 	margin-bottom: 10px;
 }
 .flex-text p{
-	margin: 20px;
+	margin-top: 10px;
 }
 .img-block {
 	display: block;
@@ -190,4 +190,8 @@ iframe {
     width: 200px;
     height: 650px;
     margin-bottom: 20px;
+}
+.icon-photo {
+	width: 136px;
+	height: 136px;
 }
