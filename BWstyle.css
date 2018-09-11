@@ -46,8 +46,8 @@ h3 {
 	color: black;
 	font-size: 18px;
 	width: 120px;
-	height: 50px;
-	border: 2px solid black;
+	height: 32px;
+	border: none;
 	border-radius: 0px;
 	margin: 5px;
 }
@@ -58,9 +58,10 @@ h3 {
 .active {
 	background-color: #D3D3D3;
 }
-#linkedin {
-	background-color: #0077B5;
-	color: white;
+#linkedin:hover{
+	/*background-color: #0077B5;
+	color: white;*/
+	color: #0077B5;
 }
 .contents {
 	display: flex;
