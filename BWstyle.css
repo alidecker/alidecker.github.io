@@ -162,10 +162,21 @@ ul {
     height: 100%;
     margin: 20px 10px 20px 0;
 }
+.vert-block-photo {
+	height: 50%;
+	width: 80%;
+	width: 100%;
+}
 .proj-block {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+}
+.vert-block {
+	display: block;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	margin: 20px 20px 20px 0;
 }
 .text-block p{
 	margin-bottom: 10px;
@@ -192,6 +203,13 @@ iframe {
     width: 200px;
     height: 650px;
     margin-bottom: 20px;
+}
+#train-bars {
+	/*width: 18.25%;
+	height: 36.5%;*/
+	width: 36%;
+	height: 72%;
+	margin: 20px 11% 20px 20px;
 }
 .icon-photo {
 	width: 136px;
