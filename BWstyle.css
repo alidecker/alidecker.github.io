@@ -215,3 +215,9 @@ iframe {
 	width: 136px;
 	height: 136px;
 }
+#home-photos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 20px;
+}
