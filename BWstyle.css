@@ -25,10 +25,10 @@ h3 {
 	margin-top: 0px;
 	margin-bottom: 20px;
 }
-/*.home:hover {
+.home:hover {
 	color: #808080;
 	cursor: pointer;
-}*/
+}
 #menu-bar {
 	display: flex;
 	flex-direction: row;
