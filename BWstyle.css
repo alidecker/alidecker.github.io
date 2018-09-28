@@ -220,3 +220,20 @@ iframe {
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+.portfolio-text {
+	width: 300px;
+/*}
+.portfolio-text p{*/
+	color: black;
+	text-decoration: none;
+	margin-left: 20px;
+}
+.home-container {
+	position: relative;
+	background-color: #D3D3D3;
+	margin: 20px 20px 0 0;
+	padding-bottom: 20px;
+}
+.home-container:hover .overlay {
+  opacity: 0.85;
+}
