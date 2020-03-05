@@ -69,9 +69,20 @@ h3 {
 }
 #resume-photo {
 	margin: 10px 20px 10px 0px;
-	height: 100%;
-	width: auto;
+	height: 27%;
+	width: 27%;
 }
+/*FIX FOR MOBILE LATER*/
+/*@media only screen and (max-width: 800px) {
+.contents {
+	display: flex;
+	flex-direction: column;
+}
+#resume-photo {
+	margin: 10px 20px 10px 0px;
+	height: 100%;
+	width: 100%;
+}*/
 .bp {
 	margin: 10px 20px 10px 0px;
 }
